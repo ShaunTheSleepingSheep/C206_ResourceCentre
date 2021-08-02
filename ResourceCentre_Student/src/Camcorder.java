@@ -12,7 +12,7 @@ public class Camcorder extends Item{
 	}
 	
 	public String toString(){
-		String output = "hi";
+		String output = "";
 		// Write your codes here
 		output += String.format("%-10s %-30s %-10s %-10s %-20d\n", this.getAssetTag(), this.getDescription(), this.getIsAvailable(), this.getDueDate(),
 				this.getOpticalZoom());
